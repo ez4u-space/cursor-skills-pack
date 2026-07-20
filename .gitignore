@@ -1,0 +1,13 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
+*.tmp
+
+# Optional local artifacts — никогда не коммитить копии skills
+dist/
+*.zip
+*.7z
+package/

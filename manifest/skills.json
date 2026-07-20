@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "description": "Публичные agent skills из оригинальных источников. Устанавливать только командами из поля install — не копировать файлы из этого репо.",
+  "skills": [
+    {
+      "id": "hallmark",
+      "name": "Hallmark",
+      "source": "nutlope/hallmark",
+      "sourceUrl": "https://github.com/nutlope/hallmark",
+      "install": "npx skills add nutlope/hallmark@hallmark -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "find-skills",
+      "name": "Find Skills",
+      "source": "vercel-labs/skills",
+      "sourceUrl": "https://github.com/vercel-labs/skills",
+      "install": "npx skills add vercel-labs/skills@find-skills -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "name": "Vercel React Best Practices",
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills",
+      "install": "npx skills add vercel-labs/agent-skills@vercel-react-best-practices -g -y",
+      "license": "MIT",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "vercel-composition-patterns",
+      "name": "Vercel Composition Patterns",
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills",
+      "install": "npx skills add vercel-labs/agent-skills@vercel-composition-patterns -g -y",
+      "license": "MIT",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "web-design-guidelines",
+      "name": "Web Design Guidelines",
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills",
+      "install": "npx skills add vercel-labs/agent-skills@web-design-guidelines -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "deploy-to-vercel",
+      "name": "Deploy to Vercel",
+      "source": "vercel-labs/agent-skills",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills",
+      "install": "npx skills add vercel-labs/agent-skills@deploy-to-vercel -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "frontend-design",
+      "name": "Frontend Design",
+      "source": "anthropics/skills",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "install": "npx skills add anthropics/skills@frontend-design -g -y",
+      "license": "Apache-2.0",
+      "required": true,
+      "notes": "Плагин example-skills в upstream."
+    },
+    {
+      "id": "pdf",
+      "name": "PDF",
+      "source": "anthropics/skills",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "install": "npx skills add anthropics/skills@pdf -g -y",
+      "license": "Anthropic skill terms (install from upstream only)",
+      "required": true,
+      "notes": "Ставить только из оригинала Anthropic. Не копировать и не переиздавать содержимое skill."
+    },
+    {
+      "id": "docx",
+      "name": "DOCX",
+      "source": "anthropics/skills",
+      "sourceUrl": "https://github.com/anthropics/skills",
+      "install": "npx skills add anthropics/skills@docx -g -y",
+      "license": "Anthropic skill terms (install from upstream only)",
+      "required": true,
+      "notes": "Ставить только из оригинала Anthropic. Не копировать и не переиздавать содержимое skill."
+    },
+    {
+      "id": "tdd",
+      "name": "TDD",
+      "source": "mattpocock/skills",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "install": "npx skills add mattpocock/skills@tdd -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "systematic-debugging",
+      "name": "Systematic Debugging",
+      "source": "obra/superpowers",
+      "sourceUrl": "https://github.com/obra/superpowers",
+      "install": "npx skills add obra/superpowers@systematic-debugging -g -y",
+      "license": "MIT",
+      "required": true,
+      "notes": "Также доступен через плагин Superpowers; эта запись даёт паритет с установкой через skills CLI."
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "UI/UX Pro Max",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "install": "npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max -g -y",
+      "license": "See upstream repository",
+      "required": true,
+      "notes": "При ошибке поиска skill попробуй: npx skills add nextlevelbuilder/ui-ux-pro-max-skill -g -y --full-depth"
+    },
+    {
+      "id": "lobehub-skills-search-engine",
+      "name": "LobeHub Skills Search Engine",
+      "source": "lobehub-market",
+      "sourceUrl": "https://lobehub.com",
+      "install": "npx -y @lobehub/market-cli skills install lobehub-skills-search-engine",
+      "license": "See LobeHub marketplace terms",
+      "required": true,
+      "notes": "Отдельный CLI (не npx skills). Может потребовать регистрацию/логин LobeHub — при блокере сообщи пользователю и продолжай остальные skills."
+    }
+  ]
+}

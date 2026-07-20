@@ -1,0 +1,39 @@
+﻿# Авторы и оригиналы
+
+Этот пак **не содержит** копий skills. Ниже — источники, откуда Skills CLI / marketplace ставят пакеты. Уважайте лицензии upstream.
+
+## Agent skills
+
+| Skill | Автор / организация | Оригинал | Лицензия (как заявлено) |
+|---|---|---|---|
+| hallmark | nutlope (Hassan El Mghari) / Together AI | https://github.com/nutlope/hallmark | см. репозиторий |
+| find-skills | Vercel Labs | https://github.com/vercel-labs/skills | см. репозиторий |
+| vercel-react-best-practices | Vercel | https://github.com/vercel-labs/agent-skills | MIT |
+| vercel-composition-patterns | Vercel | https://github.com/vercel-labs/agent-skills | MIT |
+| web-design-guidelines | Vercel Labs | https://github.com/vercel-labs/agent-skills | см. репозиторий |
+| deploy-to-vercel | Vercel Labs | https://github.com/vercel-labs/agent-skills | см. репозиторий |
+| frontend-design | Anthropic | https://github.com/anthropics/skills | Apache-2.0 |
+| pdf | Anthropic | https://github.com/anthropics/skills | условия Anthropic (не переиздавать) |
+| docx | Anthropic | https://github.com/anthropics/skills | условия Anthropic (не переиздавать) |
+| tdd | Matt Pocock | https://github.com/mattpocock/skills | см. репозиторий |
+| systematic-debugging | Jesse Vincent (obra) | https://github.com/obra/superpowers | MIT |
+| ui-ux-pro-max | nextlevelbuilder | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | см. репозиторий |
+| lobehub-skills-search-engine | LobeHub | LobeHub Skills Marketplace / `@lobehub/market-cli` | условия LobeHub |
+
+Каталог поиска skills: https://skills.sh/
+
+## Cursor plugins
+
+| Plugin | Автор | Оригинал / docs | Лицензия |
+|---|---|---|---|
+| Superpowers | Jesse Vincent / obra | https://github.com/obra/superpowers · [Install on Cursor](https://obra-superpowers.mintlify.app/installation/cursor) | MIT |
+
+## Что сознательно не включено
+
+- **Figma** и **Supabase** Cursor-плагины — опциональны и часто нужны только под конкретные проекты.
+- Встроенные skills Cursor (`create-rule`, `canvas`, ...) — поставляются с Cursor.
+- Личные VS Code/Cursor extensions.
+
+## Как собран список
+
+Состав собран на основе `~/.agents/.skill-lock.json` и публичных marketplace-источников, без вендоринга файлов в git.

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "description": "Публичные Cursor-плагины. Figma и Supabase в пак не входят.",
+  "plugins": [
+    {
+      "id": "superpowers",
+      "name": "Superpowers",
+      "author": "Jesse Vincent / obra",
+      "sourceUrl": "https://github.com/obra/superpowers",
+      "docsUrl": "https://obra-superpowers.mintlify.app/installation/cursor",
+      "required": true,
+      "license": "MIT",
+      "install": {
+        "automated": [
+          "В чате Cursor Agent выполнить команду: /add-plugin superpowers",
+          "Альтернатива (если /add-plugin недоступен): /plugin-add superpowers"
+        ],
+        "manualUi": [
+          "Открыть Cursor → Plugins / Marketplace",
+          "Найти «Superpowers» (obra / Jesse Vincent)",
+          "Нажать Install и дождаться завершения",
+          "При необходимости полностью перезапустить Cursor"
+        ],
+        "verify": "В новом Agent-чате спросить: Do you have superpowers? — агент должен подтвердить наличие skills."
+      },
+      "notes": "Полноценной CLI-установки плагина Cursor нет. Агент сначала предлагает automated-команду в Agent chat; если пользователь не может выполнить slash-команду — даёт manualUi и ждёт подтверждения «готово»."
+    }
+  ]
+}
